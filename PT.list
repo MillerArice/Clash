@@ -1,10 +1,8 @@
 # 内容: PT站点
 DOMAIN,ubits.club
 DOMAIN,pt.btschool.club
-DOMAIN,kp.m-team.cc
-DOMAIN,xp.m-team.cc
-DOMAIN,ap.m-team.cc
-DOMAIN,m-team.io
+DOMAIN-SUFFIX,m-team.cc
+DOMAIN-SUFFIX,m-team.io
 DOMAIN,pthome.net
 DOMAIN,leaves.red
 DOMAIN,hdarea.club
