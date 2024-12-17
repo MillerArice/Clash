@@ -5,6 +5,7 @@
 # https://github.com/ignaciocastro/a-dove-is-dumb/issues
 # Or follow updates at https://a.dove.isdumb.one/telegram
 # Last update: 2024-12-16 00:15 UTC
+DOMAIN-SUFFIX,adobess.com
 DOMAIN,ic.adobe.io
 DOMAIN,cc-api-data.adobe.io
 DOMAIN,cc-api-data-stage.adobe.io
