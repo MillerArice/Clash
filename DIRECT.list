@@ -1,6 +1,6 @@
 # 自定义直连
-DOMAIN,dl.openwrt.ai
-DOMAIN,ghp.ci
-DOMAIN,adblockplus.org
-DOMAIN,ip.sb
-DOMAIN,ioiox.net
+DOMAIN-SUFFIX,dl.openwrt.ai
+DOMAIN-SUFFIX,ghp.ci
+DOMAIN-SUFFIX,adblockplus.org
+DOMAIN-SUFFIX,ip.sb
+DOMAIN-SUFFIX,ioiox.net
