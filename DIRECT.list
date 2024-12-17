@@ -1,3 +1,6 @@
 # 自定义直连
 DOMAIN,dl.openwrt.ai
 DOMAIN,ghp.ci
+DOMAIN,adblockplus.org
+DOMAIN,ip.sb
+DOMAIN,ioiox.net
