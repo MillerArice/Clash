@@ -6,4 +6,4 @@ DOMAIN,api.github.com
 DOMAIN,copilot-proxy.githubusercontent.com
 DOMAIN,api.githubcopilot.com
 DOMAIN,api.individual.githubcopilot.com
-DOMAIN,raw.githubusercontent.com
+DOMAIN-SUFFIX,raw.githubusercontent.com
