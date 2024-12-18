@@ -7,7 +7,4 @@ PROCESS-NAME,lucky
 PROCESS-NAME,curl
 # other
 DOMAIN-SUFFIX,ghp.ci
-DOMAIN-SUFFIX,adblockplus.org
 DOMAIN-SUFFIX,ip.sb
-DOMAIN-SUFFIX,ioiox.net
-DOMAIN-SUFFIX,cloudflare-dns.com
