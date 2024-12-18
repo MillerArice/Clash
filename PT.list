@@ -1,4 +1,5 @@
 # 内容: PT站点
+# 网站域名
 DOMAIN,ubits.club
 DOMAIN,pt.btschool.club
 DOMAIN-SUFFIX,m-team.cc
@@ -15,3 +16,23 @@ DOMAIN,zhuque.in
 DOMAIN,invites.fun
 DOMAIN,pt.keepfrds.com
 DOMAIN,ourbits.club
+# 站点tracker
+DOMAIN,t.audiences.me
+DOMAIN,tracker.cinefiles.info
+DOMAIN,tracker.hdarea.club
+DOMAIN,t.hdhome.org
+DOMAIN,hhanclub.top
+DOMAIN,tracker.hhan.club
+DOMAIN,tracker.keepfrds.com
+DOMAIN,tracker.leaves.red
+DOMAIN,tracker2.leaves.red
+DOMAIN,tracker3.leaves.red
+DOMAIN,tracker.m-team.cc
+DOMAIN,pt.btschool.club
+DOMAIN,tracker.ptchdbits.co
+DOMAIN,tracker.rainbowisland.co
+DOMAIN,chdbits.xyz
+DOMAIN,t.pthome.net
+DOMAIN,t.pthome.org
+DOMAIN,t.ubits.club
+DOMAIN,tracker.zhuque.in
