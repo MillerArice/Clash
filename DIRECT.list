@@ -1,8 +1,10 @@
 # 自定义直连
+# 软路由软件源
 DOMAIN-SUFFIX,dl.openwrt.ai
 DOMAIN-SUFFIX,ghp.ci
 DOMAIN-SUFFIX,adblockplus.org
 DOMAIN-SUFFIX,ip.sb
 DOMAIN-SUFFIX,ioiox.net
 DOMAIN-SUFFIX,cloudflare-dns.com
+# lucky进程
 PROCESS-NAME,lucky
