@@ -5,3 +5,4 @@ DOMAIN-SUFFIX,adblockplus.org
 DOMAIN-SUFFIX,ip.sb
 DOMAIN-SUFFIX,ioiox.net
 DOMAIN-SUFFIX,cloudflare-dns.com
+PROCESS-NAME,lucky
