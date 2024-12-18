@@ -1,5 +1,2 @@
 # 自定义代理
 DOMAIN,audiences.me
-DOMAIN-SUFFIX,inapps.appsflyer.com
-DOMAIN-SUFFIX,launches.appsflyer.com
-DOMAIN-SUFFIX,api.ipify.org
