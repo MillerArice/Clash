@@ -8,3 +8,5 @@ PROCESS-NAME,curl
 # other
 DOMAIN-SUFFIX,ghp.ci
 DOMAIN-SUFFIX,ip.sb
+# 不良林
+DOMAIN-SUFFIX,bulianglin.com
