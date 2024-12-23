@@ -1,2 +1,5 @@
 # 自定义代理
+# PT观众
 DOMAIN,audiences.me
+# 不良林
+DOMAIN-SUFFIX,bulianglin.com
