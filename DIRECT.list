@@ -1,11 +1,5 @@
 # 内容：自定义直连
 # 软路由软件源
 DOMAIN-SUFFIX,dl.openwrt.ai
-# lucky进程
-PROCESS-NAME,lucky
-# curl进程
-PROCESS-NAME,curl
-# other
-DOMAIN-SUFFIX,ghp.ci
-DOMAIN-SUFFIX,ip.sb
-
+# Macwk
+DOMAIN-SUFFIX,macwk.cn
