@@ -1,5 +1,3 @@
 # 内容：自定义直连
 # 软路由软件源
 DOMAIN-SUFFIX,dl.openwrt.ai
-# Macwk
-DOMAIN-SUFFIX,macwk.cn
