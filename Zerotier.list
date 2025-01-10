@@ -1,0 +1,8 @@
+# Zerotier 流量转换规则策略组
+DOMAIN-KEYWORD,zerotier
+DOMAIN-SUFFIX,zerotier.com
+DOMAIN,api.zerotier.com
+DOMAIN,control.zerotier.com
+DOMAIN,*.zerotier.com
+DOMAIN-SUFFIX,*.zt
+IP-CIDR,192.168.192.0/24,Zerotier
