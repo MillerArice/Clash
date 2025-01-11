@@ -1,9 +1,9 @@
 # 代理补充
 # PT
-DOMAIN,fsm.name
-DOMAIN,audiences.me
-DOMAIN,leaves.red
-DOMAIN,zhuque.in
+DOMAIN-SUFFIX,fsm.name
+DOMAIN-SUFFIX,audiences.me
+DOMAIN-SUFFIX,leaves.red
+DOMAIN-SUFFIX,zhuque.in
 # 不良林
 DOMAIN-SUFFIX,bulianglin.com
 # Shopify
