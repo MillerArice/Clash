@@ -5,3 +5,5 @@ DOMAIN-SUFFIX,dl.openwrt.ai
 DOMAIN-SUFFIX,*.arice.top
 DOMAIN-SUFFIX,*.arice.fun
 DOMAIN-SUFFIX,*.millerarice.cn
+# zerotier IP段
+IP-CIDR,192.168.192.0/24
