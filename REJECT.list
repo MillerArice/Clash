@@ -2,6 +2,8 @@
 # PT
 DOMAIN,fsm.name
 DOMAIN,audiences.me
+DOMAIN,leaves.red
+DOMAIN,ourbits.club
 # 不良林
 DOMAIN-SUFFIX,bulianglin.com
 # Shopify
