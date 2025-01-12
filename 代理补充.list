@@ -1,6 +1,7 @@
 # 代理补充
 # PT
 DOMAIN-SUFFIX,fsm.name
+DOMAIN-SUFFIX,audiences.me
 # 不良林
 DOMAIN-SUFFIX,bulianglin.com
 # Shopify
