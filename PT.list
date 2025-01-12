@@ -1,22 +1,22 @@
 # 内容: PT站点
 # 网站域名
-DOMAIN,ubits.club
-DOMAIN,pt.btschool.club
-DOMAIN-SUFFIX,m-team.cc
-DOMAIN-SUFFIX,m-team.io
-DOMAIN,pthome.net
-DOMAIN,audiences.me
+#DOMAIN,ubits.club
+#DOMAIN,pt.btschool.club
+#DOMAIN-SUFFIX,m-team.cc
+#DOMAIN-SUFFIX,m-team.io
+#DOMAIN,pthome.net
+#DOMAIN,audiences.me
 #DOMAIN,leaves.red
-DOMAIN,hdarea.club
-DOMAIN,hdhome.org
-DOMAIN,hhanclub.top
-DOMAIN,chdbits.xyz
-DOMAIN,ptchdbits.co
-DOMAIN,chdbits.co
-DOMAIN,zhuque.in
-DOMAIN,invites.fun
-DOMAIN,pt.keepfrds.com
-DOMAIN,ourbits.club
+#DOMAIN,hdarea.club
+#DOMAIN,hdhome.org
+#DOMAIN,hhanclub.top
+#DOMAIN,chdbits.xyz
+#DOMAIN,ptchdbits.co
+#DOMAIN,chdbits.co
+#DOMAIN,zhuque.in
+#DOMAIN,invites.fun
+#DOMAIN,pt.keepfrds.com
+#DOMAIN,ourbits.club
 # 站点tracker
 DOMAIN,t.audiences.me
 DOMAIN,tracker.cinefiles.info
