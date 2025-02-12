@@ -1,7 +1,6 @@
 # 代理补充
 # PT
 DOMAIN-SUFFIX,fsm.name
-#DOMAIN,audiences.me
 # 不良林
 DOMAIN-SUFFIX,bulianglin.com
 # 七尺宇
@@ -13,3 +12,6 @@ DOMAIN-SUFFIX,popvil.com
 DOMAIN-SUFFIX,pinklily.com
 # 媒体刮削服务
 DOMAIN-SUFFIX,image.tmdb.org
+# 9KG
+DOMAIN-SUFFIX,prohub.com
+DOMAIN-SUFFIX,91porn.com
