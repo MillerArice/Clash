@@ -2,3 +2,6 @@
 
 # 软路由软件源
 DOMAIN-SUFFIX,dl.openwrt.ai
+# emby服务
+DOMAIN,emby.arice.top
+DOMAIN,emby.arice.fun
