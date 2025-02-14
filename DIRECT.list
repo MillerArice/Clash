@@ -2,8 +2,3 @@
 
 # 软路由软件源
 DOMAIN-SUFFIX,dl.openwrt.ai
-
-# 自购域名服务
-DOMAIN-SUFFIX,arice.top
-DOMAIN-SUFFIX,arice.fun
-DOMAIN-SUFFIX,millerarice.cn
