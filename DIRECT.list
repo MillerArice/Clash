@@ -5,3 +5,5 @@ DOMAIN-SUFFIX,dl.openwrt.ai
 # emby服务
 DOMAIN,emby.arice.top
 DOMAIN,emby.arice.fun
+# CF验证
+DOMAIN,cloudflare-ech.com
