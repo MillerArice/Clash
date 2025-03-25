@@ -1,5 +1,7 @@
 # 内容：自定义直连
 
+# 自己域名
+DOMAIN-SUFFIX,millerarice.cn
 # 软路由软件源
 DOMAIN-SUFFIX,dl.openwrt.ai
 # emby服务
@@ -11,5 +13,4 @@ DOMAIN,cloudflare-ech.com
 DOMAIN-SUFFIX,redleaves.app
 # hifini音乐
 DOMAIN,hifini.com
-# 自己域名
-DOMAIN-SUFFIX,millerarice.cn
+
