@@ -11,3 +11,5 @@ DOMAIN,cloudflare-ech.com
 DOMAIN-SUFFIX,redleaves.app
 # hifini音乐
 DOMAIN,hifini.com
+# 自己域名
+DOMAIN-SUFFIX,millerarice.cn
