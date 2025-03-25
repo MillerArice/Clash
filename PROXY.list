@@ -14,7 +14,7 @@ DOMAIN-SUFFIX,pinklily.com
 DOMAIN-SUFFIX,image.tmdb.org
 # 域名服务
 DOMAIN-SUFFIX,arice.top
-DOMAIN-SUFFIX,millerarice.cn
+#DOMAIN-SUFFIX,millerarice.cn
 DOMAIN-SUFFIX,arice.fun
 # 涩涩
 DOMAIN-SUFFIX,91porn.com
