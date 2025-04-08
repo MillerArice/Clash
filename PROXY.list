@@ -16,6 +16,7 @@ DOMAIN-SUFFIX,api.themoviedb.org
 DOMAIN-SUFFIX,api.wcc.best
 DOMAIN-SUFFIX,www.opensubtitles.org
 DOMAIN-SUFFIX,api.opensubtitles.org
+DOMAIN-SUFFIX,last.fm
 # 涩涩
 DOMAIN-SUFFIX,91porn.com
 # Last.fm WebAPI服务
