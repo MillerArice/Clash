@@ -19,10 +19,3 @@ DOMAIN-SUFFIX,pixabay.com
 DOMAIN,privacy-gateway.cloudflare.com
 # 红杏
 DOMAIN-SUFFIX,hongxingdl.one
-# EMBY
-DOMAIN-SUFFIX,mb3admin.com
-DOMAIN-SUFFIX,emby.media
-DOMAIN-SUFFIX,plugins.emby.media
-DOMAIN-SUFFIX,api.emby.media
-DOMAIN-SUFFIX,cdn.emby.media
-DOMAIN-SUFFIX,embycontent.azureedge.net
