@@ -19,3 +19,5 @@ DOMAIN-SUFFIX,91porn.com
 DOMAIN,ws.audioscrobbler.com
 # 刮削-第三方字幕服务
 DOMAIN,api.wcc.best
+# CF API服务
+DOMAIN,api.cloudflare.com
