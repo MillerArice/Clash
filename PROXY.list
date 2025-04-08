@@ -30,3 +30,5 @@ DOMAIN-SUFFIX,plugins.emby.media
 DOMAIN-SUFFIX,api.emby.media
 DOMAIN-SUFFIX,cdn.emby.media
 DOMAIN-SUFFIX,embycontent.azureedge.net
+# 验证服务器证书是否被撤销
+DOMAIN-SUFFIX,digicert.com
