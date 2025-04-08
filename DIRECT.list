@@ -21,3 +21,5 @@ DOMAIN,privacy-gateway.cloudflare.com
 DOMAIN-SUFFIX,hongxingdl.one
 # adobe
 DOMAIN-SUFFIX,adobe.io
+# RapidSSL 签发证书
+DOMAIN-SUFFIX,rapidssl.com
