@@ -37,3 +37,13 @@ DOMAIN-SUFFIX,navidrome.org
 DOMAIN-SUFFIX,acoustid.org
 # 某些APP遥测
 DOMAIN-SUFFIX,rapidssl.com
+# 公共 IP 检测服务
+DOMAIN-SUFFIX,ip.sb
+# 手绘板
+DOMAIN-SUFFIX,wacom.com
+# 油猴
+DOMAIN-SUFFIX,tampermonkey.net
+# 广告
+DOMAIN-SUFFIX,adblockplus.org
+# 短地址跳转
+DOMAIN-SUFFIX,ttt.sh
