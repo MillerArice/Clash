@@ -31,3 +31,5 @@ DOMAIN-SUFFIX,plugins.emby.media
 DOMAIN-SUFFIX,api.emby.media
 DOMAIN-SUFFIX,cdn.emby.media
 DOMAIN-SUFFIX,embycontent.azureedge.net
+# navidrome上报运行数据
+DOMAIN-SUFFIX,navidrome.org
