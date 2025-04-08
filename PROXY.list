@@ -14,15 +14,14 @@ DOMAIN-SUFFIX,pinklily.com
 DOMAIN-SUFFIX,image.tmdb.org
 DOMAIN-SUFFIX,themoviedb.org
 DOMAIN-SUFFIX,api.wcc.best
-DOMAIN-SUFFIX,www.opensubtitles.org
-DOMAIN-SUFFIX,api.opensubtitles.org
+DOMAIN-SUFFIX,opensubtitles.org
 DOMAIN-SUFFIX,last.fm
 # 涩涩
 DOMAIN-SUFFIX,91porn.com
 # Last.fm WebAPI服务
-DOMAIN-SUFFIX,ws.audioscrobbler.com
+DOMAIN-SUFFIX,audioscrobbler.com
 # CF API服务
-DOMAIN-SUFFIX,api.cloudflare.com
+DOMAIN,api.cloudflare.com
 DOMAIN-SUFFIX,ipify.org
 # 验证服务器证书是否被撤销
 DOMAIN-SUFFIX,digicert.com
