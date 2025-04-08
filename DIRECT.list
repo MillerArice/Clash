@@ -19,3 +19,5 @@ DOMAIN-SUFFIX,pixabay.com
 DOMAIN,privacy-gateway.cloudflare.com
 # 红杏
 DOMAIN-SUFFIX,hongxingdl.one
+# 验证服务器证书是否被撤销
+DOMAIN-SUFFIX,digicert.com
