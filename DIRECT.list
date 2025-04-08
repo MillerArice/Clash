@@ -33,3 +33,7 @@ DOMAIN-SUFFIX,cdn.emby.media
 DOMAIN-SUFFIX,embycontent.azureedge.net
 # navidrome上报运行数据
 DOMAIN-SUFFIX,navidrome.org
+# 开源的音乐指纹识别服务
+DOMAIN-SUFFIX,acoustid.org
+# 某些APP遥测
+DOMAIN-SUFFIX,rapidssl.com
