@@ -23,3 +23,10 @@ DOMAIN,ws.audioscrobbler.com
 # CF API服务
 DOMAIN,api.cloudflare.com
 DOMAIN,ipify.org
+# EMBY
+DOMAIN-SUFFIX,mb3admin.com
+DOMAIN-SUFFIX,emby.media
+DOMAIN-SUFFIX,plugins.emby.media
+DOMAIN-SUFFIX,api.emby.media
+DOMAIN-SUFFIX,cdn.emby.media
+DOMAIN-SUFFIX,embycontent.azureedge.net
