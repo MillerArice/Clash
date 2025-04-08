@@ -21,3 +21,4 @@ DOMAIN,ws.audioscrobbler.com
 DOMAIN,api.wcc.best
 # CF API服务
 DOMAIN,api.cloudflare.com
+DOMAIN,ipify.org
