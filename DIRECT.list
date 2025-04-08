@@ -19,3 +19,5 @@ DOMAIN-SUFFIX,pixabay.com
 DOMAIN,privacy-gateway.cloudflare.com
 # 红杏
 DOMAIN-SUFFIX,hongxingdl.one
+# adobe
+DOMAIN-SUFFIX,adobe.io
