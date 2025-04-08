@@ -17,3 +17,5 @@ DOMAIN,api.themoviedb.org
 DOMAIN-SUFFIX,91porn.com
 # Last.fm WebAPI服务
 DOMAIN,ws.audioscrobbler.com
+# 刮削-第三方字幕服务
+DOMAIN,api.wcc.best
