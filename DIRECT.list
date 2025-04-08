@@ -24,3 +24,10 @@ DOMAIN-SUFFIX,adobe.io
 DOMAIN-SUFFIX,adobe.com
 # RapidSSL 签发证书
 DOMAIN-SUFFIX,rapidssl.com
+# EMBY
+DOMAIN-SUFFIX,mb3admin.com
+DOMAIN-SUFFIX,emby.media
+DOMAIN-SUFFIX,plugins.emby.media
+DOMAIN-SUFFIX,api.emby.media
+DOMAIN-SUFFIX,cdn.emby.media
+DOMAIN-SUFFIX,embycontent.azureedge.net
