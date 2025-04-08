@@ -15,3 +15,5 @@ DOMAIN-SUFFIX,redleaves.app
 DOMAIN,hifini.com
 # px免版权图片网
 DOMAIN-SUFFIX,pixabay.com
+# CF隐私保护代理
+DOMAIN,privacy-gateway.cloudflare.com
