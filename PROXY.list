@@ -15,3 +15,5 @@ DOMAIN-SUFFIX,image.tmdb.org
 DOMAIN,api.themoviedb.org
 # 涩涩
 DOMAIN-SUFFIX,91porn.com
+# Last.fm WebAPI服务
+DOMAIN,ws.audioscrobbler.com
