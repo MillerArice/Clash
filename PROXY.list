@@ -1,5 +1,5 @@
-# 代理补充
-# PT
+### 代理补充
+# PT-FSM
 DOMAIN-SUFFIX,fsm.name
 # 不良林
 DOMAIN-SUFFIX,bulianglin.com
@@ -23,12 +23,5 @@ DOMAIN-SUFFIX,ws.audioscrobbler.com
 # CF API服务
 DOMAIN-SUFFIX,api.cloudflare.com
 DOMAIN-SUFFIX,ipify.org
-# EMBY
-DOMAIN-SUFFIX,mb3admin.com
-DOMAIN-SUFFIX,emby.media
-DOMAIN-SUFFIX,plugins.emby.media
-DOMAIN-SUFFIX,api.emby.media
-DOMAIN-SUFFIX,cdn.emby.media
-DOMAIN-SUFFIX,embycontent.azureedge.net
 # 验证服务器证书是否被撤销
 DOMAIN-SUFFIX,digicert.com
