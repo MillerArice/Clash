@@ -17,3 +17,5 @@ DOMAIN,hifini.com
 DOMAIN-SUFFIX,pixabay.com
 # CF隐私保护代理
 DOMAIN,privacy-gateway.cloudflare.com
+# 红杏
+DOMAIN-SUFFIX,hongxingdl.one
