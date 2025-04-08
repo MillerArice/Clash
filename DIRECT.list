@@ -1,10 +1,10 @@
-# 内容：自定义直连
+### 内容：自定义直连
 
-# 自己域名
+# 域名
 DOMAIN-SUFFIX,millerarice.cn
-# 软路由软件源
+# op软件源
 DOMAIN-SUFFIX,dl.openwrt.ai
-# emby服务
+# emby域名
 DOMAIN,emby.arice.top
 DOMAIN,emby.millerarice.cn
 DOMAIN,emby.arice.fun
