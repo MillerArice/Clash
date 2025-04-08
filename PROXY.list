@@ -19,10 +19,10 @@ DOMAIN-SUFFIX,api.opensubtitles.org
 # 涩涩
 DOMAIN-SUFFIX,91porn.com
 # Last.fm WebAPI服务
-DOMAIN,ws.audioscrobbler.com
+DOMAIN-SUFFIX,ws.audioscrobbler.com
 # CF API服务
-DOMAIN,api.cloudflare.com
-DOMAIN,ipify.org
+DOMAIN-SUFFIX,api.cloudflare.com
+DOMAIN-SUFFIX,ipify.org
 # EMBY
 DOMAIN-SUFFIX,mb3admin.com
 DOMAIN-SUFFIX,emby.media
