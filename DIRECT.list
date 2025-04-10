@@ -47,3 +47,5 @@ DOMAIN-SUFFIX,tampermonkey.net
 DOMAIN-SUFFIX,adblockplus.org
 # 短地址跳转
 DOMAIN-SUFFIX,ttt.sh
+# moviepilot
+DOMAIN-SUFFIX,movie-pilot.org
