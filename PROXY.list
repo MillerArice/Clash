@@ -22,10 +22,3 @@ DOMAIN-SUFFIX,fanart.tv
 DOMAIN-SUFFIX,91porn.com
 # Last.fm WebAPI服务
 DOMAIN-SUFFIX,audioscrobbler.com
-# CF API服务
-DOMAIN,api.cloudflare.com
-DOMAIN-SUFFIX,ipify.org
-# 验证服务器证书是否被撤销
-DOMAIN-SUFFIX,digicert.com
-# 隐私 DNS 请求
-DOMAIN-SUFFIX,fastly-edge.com
