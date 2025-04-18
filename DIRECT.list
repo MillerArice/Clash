@@ -11,7 +11,8 @@ DOMAIN,emby.arice.fun
 # CF验证
 DOMAIN-SUFFIX,redleaves.app
 # hifini音乐
-DOMAIN,hifini.com
+DOMAIN-SUFFIX,hifini.com
+DOMAIN-SUFFIX,joy127.com
 # px免版权图片网
 DOMAIN-SUFFIX,pixabay.com
 # 红杏
