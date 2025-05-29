@@ -6,8 +6,6 @@ DOMAIN-SUFFIX,millerarice.cn
 DOMAIN-SUFFIX,dl.openwrt.ai
 # emby域名
 DOMAIN,emby.arice.top
-DOMAIN,emby.millerarice.cn
-DOMAIN,emby.arice.fun
 # CF验证
 DOMAIN-SUFFIX,redleaves.app
 # hifini音乐
