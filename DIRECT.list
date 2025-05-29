@@ -6,9 +6,6 @@ DOMAIN,emby.arice.top
 DOMAIN,dav.arice.top
 # op软件源
 DOMAIN-SUFFIX,dl.openwrt.ai
-# emby域名
-
-
 # CF验证
 DOMAIN-SUFFIX,redleaves.app
 # hifini音乐
