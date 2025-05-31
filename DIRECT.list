@@ -4,6 +4,8 @@
 DOMAIN-SUFFIX,millerarice.cn
 DOMAIN,emby.arice.top
 DOMAIN,dav.arice.top
+DOMAIN,music.arice.top
+DOMAIN,na.arice.top
 # op软件源
 DOMAIN-SUFFIX,dl.openwrt.ai
 # CF验证
