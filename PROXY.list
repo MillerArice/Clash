@@ -20,3 +20,5 @@ DOMAIN-SUFFIX,fanart.tv
 DOMAIN-SUFFIX,91porn.com
 # Last.fm WebAPI服务
 DOMAIN-SUFFIX,audioscrobbler.com
+# MP依赖
+DOMAIN-SUFFIX,pypi.org
