@@ -1,11 +1,14 @@
 ### 内容：自定义直连
 
 # 域名
-DOMAIN-SUFFIX,millerarice.cn
 DOMAIN,emby.arice.top
 DOMAIN,dav.arice.top
 DOMAIN,music.arice.top
 DOMAIN,na.arice.top
+DOMAIN,cf-emby.millerarice.cn
+DOMAIN,cf-dav.millerarice.cn
+DOMAIN,cf-music.millerarice.cn
+DOMAIN,cf-na.millerarice.cn
 # op软件源
 DOMAIN-SUFFIX,dl.openwrt.ai
 # CF验证
