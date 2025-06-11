@@ -1,7 +1,6 @@
 ### 内容：自定义直连
 
 # 域名
-DOMAIN-PORT,arice.top:9090
 DOMAIN,emby.arice.top
 DOMAIN,dav.arice.top
 DOMAIN,music.arice.top
