@@ -3,20 +3,16 @@
 # 域名
 DOMAIN,emby.arice.top
 DOMAIN,dav.arice.top
-DOMAIN,music.arice.top
 DOMAIN,nd.arice.top
-DOMAIN,cf-emby.arice.top
-DOMAIN,cf-dav.arice.top
-DOMAIN,cf-music.arice.top
-DOMAIN,cf-nd.arice.top
+DOMAIN,cfemby.arice.top
+DOMAIN,cfdav.arice.top
+DOMAIN,cfnd.arice.top
 DOMAIN,emby.millerarice.cn
 DOMAIN,dav.millerarice.cn
-DOMAIN,music.millerarice.cn
 DOMAIN,nd.millerarice.cn
-DOMAIN,cf-emby.millerarice.cn
-DOMAIN,cf-dav.millerarice.cn
-DOMAIN,cf-music.millerarice.cn
-DOMAIN,cf-nd.millerarice.cn
+DOMAIN,cfemby.millerarice.cn
+DOMAIN,cfdav.millerarice.cn
+DOMAIN,cfnd.millerarice.cn
 # op软件源
 DOMAIN-SUFFIX,dl.openwrt.ai
 # CF验证
