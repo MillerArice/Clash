@@ -15,8 +15,6 @@ DOMAIN,cfdav.millerarice.cn
 DOMAIN,cfnd.millerarice.cn
 # op软件源
 DOMAIN-SUFFIX,dl.openwrt.ai
-# CF验证
-DOMAIN-SUFFIX,redleaves.app
 # hifini音乐
 DOMAIN-SUFFIX,hifini.com
 DOMAIN-SUFFIX,joy127.com
