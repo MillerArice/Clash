@@ -7,6 +7,9 @@ DOMAIN-SUFFIX,opensubtitles.com
 DOMAIN-SUFFIX,last.fm
 DOMAIN-SUFFIX,fanart.tv
 
+# MP依赖
+DOMAIN-SUFFIX,pypi.org
+
 # 内容：Github Copilot
 # 数量：30条
 DOMAIN-SUFFIX,atom.io
