@@ -1,6 +1,14 @@
+# 媒体刮削服务
+DOMAIN-SUFFIX,tmdb.org
+DOMAIN-SUFFIX,themoviedb.org
+DOMAIN-SUFFIX,api.wcc.best
+DOMAIN-SUFFIX,opensubtitles.org
+DOMAIN-SUFFIX,opensubtitles.com
+DOMAIN-SUFFIX,last.fm
+DOMAIN-SUFFIX,fanart.tv
+
 # 内容：Github Copilot
 # 数量：30条
-
 DOMAIN-SUFFIX,atom.io
 DOMAIN-SUFFIX,dependabot.com
 DOMAIN-SUFFIX,ghcr.io
