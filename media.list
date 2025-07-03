@@ -1,5 +1,5 @@
 # 媒体刮削服务
-DOMAIN-SUFFIX,image.tmdb.org
+DOMAIN-SUFFIX,tmdb.org
 DOMAIN-SUFFIX,themoviedb.org
 DOMAIN-SUFFIX,api.wcc.best
 DOMAIN-SUFFIX,opensubtitles.org
