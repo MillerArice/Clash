@@ -5,12 +5,12 @@ DOMAIN,emby.arice.top
 DOMAIN,cfemby.arice.top
 DOMAIN,nd.arice.top
 DOMAIN,cfnd.arice.top
-DOMAIN,music_files.arice.top
+DOMAIN,musicdl.arice.top
 DOMAIN,emby.millerarice.cn
 DOMAIN,cfemby.millerarice.cn
 DOMAIN,nd.millerarice.cn
 DOMAIN,cfnd.millerarice.cn
-DOMAIN,music_files.millerarice.cn
+DOMAIN,musicdl.millerarice.cn
 # op软件源
 DOMAIN-SUFFIX,dl.openwrt.ai
 # hifini音乐
