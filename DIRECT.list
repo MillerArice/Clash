@@ -3,18 +3,14 @@
 # 域名
 DOMAIN,emby.arice.top
 DOMAIN,cfemby.arice.top
-DOMAIN,dav.arice.top
-DOMAIN,cfdav.arice.top
 DOMAIN,nd.arice.top
 DOMAIN,cfnd.arice.top
-DOMAIN,cfser.arice.top
+DOMAIN,music_files.arice.top
 DOMAIN,emby.millerarice.cn
 DOMAIN,cfemby.millerarice.cn
-DOMAIN,dav.millerarice.cn
-DOMAIN,cfdav.millerarice.cn
 DOMAIN,nd.millerarice.cn
 DOMAIN,cfnd.millerarice.cn
-DOMAIN,cfser.millerarice.cn
+DOMAIN,music_files.millerarice.cn
 # op软件源
 DOMAIN-SUFFIX,dl.openwrt.ai
 # hifini音乐
