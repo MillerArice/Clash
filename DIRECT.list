@@ -1,11 +1,13 @@
 ### 内容：自定义直连
-
 # 域名
+# arice.top
 DOMAIN,emby.arice.top
 DOMAIN,cfemby.arice.top
 DOMAIN,nd.arice.top
 DOMAIN,cfnd.arice.top
+DOMAIN,cfmusic.arice.top
 DOMAIN,musicdl.arice.top
+# millerarice.cn
 DOMAIN,emby.millerarice.cn
 DOMAIN,cfemby.millerarice.cn
 DOMAIN,nd.millerarice.cn
