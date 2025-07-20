@@ -27,3 +27,5 @@ DOMAIN-SUFFIX,last.fm
 DOMAIN-SUFFIX,fanart.tv
 # MP依赖
 DOMAIN-SUFFIX,pypi.org
+# px免版权图片网
+DOMAIN-SUFFIX,pixabay.com
