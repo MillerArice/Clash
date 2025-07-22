@@ -29,3 +29,5 @@ DOMAIN-SUFFIX,fanart.tv
 DOMAIN-SUFFIX,pypi.org
 # px免版权图片网
 DOMAIN-SUFFIX,pixabay.com
+# freepik图片网
+DOMAIN-SUFFIX,freepik.com
