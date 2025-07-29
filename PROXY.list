@@ -31,3 +31,5 @@ DOMAIN-SUFFIX,pypi.org
 DOMAIN-SUFFIX,pixabay.com
 # freepik图片网
 DOMAIN-SUFFIX,freepik.com
+# moviepilot
+DOMAIN-SUFFIX,movie-pilot.org
