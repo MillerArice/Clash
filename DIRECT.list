@@ -36,8 +36,6 @@ DOMAIN-SUFFIX,acoustid.org
 DOMAIN-SUFFIX,wacom.com
 # 广告
 DOMAIN-SUFFIX,adblockplus.org
-# moviepilot
-DOMAIN-SUFFIX,movie-pilot.org
 # 小米
 DOMAIN-SUFFIX,mi.com
 DOMAIN-SUFFIX,xiaomi.com
