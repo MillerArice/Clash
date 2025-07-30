@@ -17,30 +17,9 @@ DOMAIN,musicdl.millerarice.cn
 DOMAIN-SUFFIX,dl.openwrt.ai
 # hifini音乐
 DOMAIN-SUFFIX,hifini.com
+DOMAIN-SUFFIX,hifiti.com
 DOMAIN-SUFFIX,joy127.com
 # 红杏
 DOMAIN-SUFFIX,hongxingdl.one
-# adobe
-DOMAIN-SUFFIX,adobe.io
-DOMAIN-SUFFIX,adobe.com
-# EMBY
-DOMAIN-SUFFIX,mb3admin.com
-DOMAIN-SUFFIX,emby.media
-DOMAIN-SUFFIX,plugins.emby.media
-DOMAIN-SUFFIX,api.emby.media
-DOMAIN-SUFFIX,cdn.emby.media
-DOMAIN-SUFFIX,embycontent.azureedge.net
 # 开源的音乐指纹识别服务
 DOMAIN-SUFFIX,acoustid.org
-# 手绘板
-DOMAIN-SUFFIX,wacom.com
-# 广告
-DOMAIN-SUFFIX,adblockplus.org
-# 小米
-DOMAIN-SUFFIX,mi.com
-DOMAIN-SUFFIX,xiaomi.com
-DOMAIN-SUFFIX,mina.mi.com
-DOMAIN-SUFFIX,api2.mina.mi.com
-DOMAIN-SUFFIX,home.mi.com
-DOMAIN-SUFFIX,app.mi.com
-DOMAIN-SUFFIX,account.xiaomi.com
