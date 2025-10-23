@@ -23,7 +23,9 @@ DOMAIN-SUFFIX,joy127.com
 DOMAIN-SUFFIX,hongxingdl.one
 # 开源的音乐指纹识别服务
 DOMAIN-SUFFIX,acoustid.org
-#XHS单
+# XHS单
 DOMAIN-SUFFIX,sph365.top
 DOMAIN-SUFFIX,v.laidianzan.top
 DOMAIN-SUFFIX,w1.ljwx.xyz
+# mac软件论坛
+DOMAIN-SUFFIX,macwr.com
