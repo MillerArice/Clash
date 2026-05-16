@@ -29,6 +29,8 @@ DOMAIN-SUFFIX,googlevideo.com
 DOMAIN-SUFFIX,gvt1.com
 DOMAIN-SUFFIX,gvt2.com
 DOMAIN-SUFFIX,withgoogle.com
+DOMAIN-SUFFIX,googleusercontent.cn
+DOMAIN-SUFFIX,generativelanguage.googleapis.com
 
 # Claude
 DOMAIN-SUFFIX,claude.ai
@@ -43,9 +45,3 @@ DOMAIN-SUFFIX,poe.com
 DOMAIN-SUFFIX,perplexity.ai
 DOMAIN-SUFFIX,cursor.com
 DOMAIN-SUFFIX,cursor.sh
-
-# Keyword
-DOMAIN-KEYWORD,openai
-DOMAIN-KEYWORD,claude
-DOMAIN-KEYWORD,gemini
-DOMAIN-KEYWORD,anthropic
