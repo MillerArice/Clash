@@ -38,11 +38,6 @@ DOMAIN-SUFFIX,intercomcdn.com
 DOMAIN-SUFFIX,sentry.io
 DOMAIN-SUFFIX,statsigapi.net
 
-# OpenAI
-DOMAIN-SUFFIX,openai.com
-DOMAIN-SUFFIX,oaistatic.com
-DOMAIN-SUFFIX,oaiusercontent.com
-
 # Other AI
 DOMAIN-SUFFIX,poe.com
 DOMAIN-SUFFIX,perplexity.ai
