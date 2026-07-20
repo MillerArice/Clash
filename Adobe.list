@@ -2,6 +2,8 @@
 #不会干扰任何其他网络选项，例如 AI 生成、下载等
 #官网地址： www.MacWk.cn 
 #最后更新时间： 2025-07-05 11:05 
+DOMAIN-SUFFIX,adobe.io
+DOMAIN,lcs-cops.adobe.io
 127.0.0.1 paddleapi.com
 127.0.0.1 paddle.com
 127.0.0.1 paddle.s3.amazonaws.com
