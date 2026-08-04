@@ -23,12 +23,291 @@ dns:
     - tls://dns.adguard.com:853
 {% endif %}
 
-{% if local.clash.new_field_name == "true" %}
+# 节点或 proxy-providers 由 SubConverter-Extended 注入。
 proxies: ~
-proxy-groups: ~
-rules: ~
-{% else %}
-Proxy: ~
-Proxy Group: ~
-Rule: ~
-{% endif %}
+
+rule-providers:
+  DirectExtra:
+    type: http
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/MillerArice/Clash/refs/heads/main/DIRECT.list
+    path: ./rule_providers/direct-extra.list
+    interval: 86400
+    proxy: DIRECT
+  ProxyExtra:
+    type: http
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/MillerArice/Clash/refs/heads/main/PROXY.list
+    path: ./rule_providers/proxy-extra.list
+    interval: 86400
+    proxy: DIRECT
+  PrivateDomain:
+    type: http
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/MillerArice/Clash/refs/heads/main/Domain.list
+    path: ./rule_providers/private-domain.list
+    interval: 86400
+    proxy: DIRECT
+  LAN:
+    type: http
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
+    path: ./rule_providers/lan.list
+    interval: 86400
+    proxy: DIRECT
+  UnBan:
+    type: http
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list
+    path: ./rule_providers/unban.list
+    interval: 86400
+    proxy: DIRECT
+  GoogleCN:
+    type: http
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list
+    path: ./rule_providers/google-cn.list
+    interval: 86400
+    proxy: DIRECT
+  SteamCN:
+    type: http
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list
+    path: ./rule_providers/steam-cn.list
+    interval: 86400
+    proxy: DIRECT
+  Steam:
+    type: http
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Steam.list
+    path: ./rule_providers/steam.list
+    interval: 86400
+    proxy: DIRECT
+  AI:
+    type: http
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/MillerArice/Clash/refs/heads/main/OtherAI.list
+    path: ./rule_providers/ai.list
+    interval: 86400
+    proxy: DIRECT
+  Apple:
+    type: http
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Apple.list
+    path: ./rule_providers/apple.list
+    interval: 86400
+    proxy: DIRECT
+  Telegram:
+    type: http
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list
+    path: ./rule_providers/telegram.list
+    interval: 86400
+    proxy: DIRECT
+  YouTube:
+    type: http
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/MillerArice/Clash/refs/heads/main/Youtube.list
+    path: ./rule_providers/youtube.list
+    interval: 86400
+    proxy: DIRECT
+  TikTok:
+    type: http
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/MillerArice/Clash/refs/heads/main/TikTok.list
+    path: ./rule_providers/tiktok.list
+    interval: 86400
+    proxy: DIRECT
+  ChinaMedia:
+    type: http
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaMedia.list
+    path: ./rule_providers/china-media.list
+    interval: 86400
+    proxy: DIRECT
+  GlobalMedia:
+    type: http
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list
+    path: ./rule_providers/global-media.list
+    interval: 86400
+    proxy: DIRECT
+  Adobe:
+    type: http
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/MillerArice/Clash/refs/heads/main/Adobe.list
+    path: ./rule_providers/adobe.list
+    interval: 86400
+    proxy: DIRECT
+  ProxyGFW:
+    type: http
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
+    path: ./rule_providers/proxy-gfw.list
+    interval: 86400
+    proxy: DIRECT
+  ChinaDomain:
+    type: http
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
+    path: ./rule_providers/china-domain.list
+    interval: 86400
+    proxy: DIRECT
+  ChinaCompanyIp:
+    type: http
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
+    path: ./rule_providers/china-company-ip.list
+    interval: 86400
+    proxy: DIRECT
+  Download:
+    type: http
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Download.list
+    path: ./rule_providers/download.list
+    interval: 86400
+    proxy: DIRECT
+
+proxy-groups:
+  - name: "🎲 手动选择"
+    type: select
+    proxies: ["全球自动", "香港自动", "日本自动", "台湾自动", "新加坡自动", "美国自动", DIRECT]
+    include-all: true
+  - name: "🎥 YouTube"
+    type: select
+    proxies: ["🎲 手动选择", "全球自动", "香港自动", "日本自动", "台湾自动", "新加坡自动", "美国自动"]
+    include-all: true
+  - name: "✈️ 代理补充"
+    type: select
+    proxies: ["🎲 手动选择", "全球自动", "香港自动", "日本自动", "台湾自动", "新加坡自动", "美国自动"]
+    include-all: true
+  - name: "🎮 Steam"
+    type: select
+    proxies: [DIRECT, "🎲 手动选择", "全球自动", "香港自动", "日本自动", "台湾自动", "新加坡自动", "美国自动"]
+  - name: "🤖 Ai服务"
+    type: select
+    proxies: ["🎲 手动选择", "全球自动", "香港自动", "日本自动", "台湾自动", "新加坡自动", "美国自动"]
+    include-all: true
+  - name: "📲 电报信息"
+    type: select
+    proxies: ["🎲 手动选择", "全球自动", "香港自动", "日本自动", "台湾自动", "新加坡自动", "美国自动"]
+    include-all: true
+  - name: "🎵 TikTok"
+    type: select
+    proxies: ["🎲 手动选择", "全球自动", "香港自动", "日本自动", "台湾自动", "新加坡自动", "美国自动"]
+  - name: "🎞️ 国外媒体"
+    type: select
+    proxies: ["🎲 手动选择", "全球自动", "香港自动", "日本自动", "台湾自动", "新加坡自动", "美国自动"]
+  - name: "🌎 私域域名"
+    type: select
+    proxies: [DIRECT, "🎲 手动选择", "全球自动", "香港自动", "日本自动", "台湾自动", "新加坡自动", "美国自动"]
+  - name: "🏍️ 直连补充"
+    type: select
+    proxies: [DIRECT]
+  - name: "🍎 苹果服务"
+    type: select
+    proxies: [DIRECT]
+  - name: "🎬 国内媒体"
+    type: select
+    proxies: [DIRECT]
+  - name: "🌄 Adobe"
+    type: select
+    proxies: [REJECT]
+  - name: "🎯 全球直连"
+    type: select
+    proxies: [DIRECT]
+  - name: "🐠 漏网之鱼"
+    type: select
+    proxies: ["🎲 手动选择", "全球自动", "香港自动", "日本自动", "台湾自动", "新加坡自动", "美国自动"]
+
+  - name: "全球自动"
+    type: url-test
+    include-all: true
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    lazy: true
+  - name: "香港自动"
+    type: url-test
+    include-all: true
+    filter: "(广港|香港|HK|Hong Kong|🇭🇰|HongKong)"
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    lazy: true
+  - name: "台湾自动"
+    type: url-test
+    include-all: true
+    filter: "(广台|台湾|台灣|TW|Tai Wan|🇹🇼|🇨🇳|TaiWan|Taiwan)"
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    lazy: true
+  - name: "日本自动"
+    type: url-test
+    include-all: true
+    filter: "(广日|日本|JP|川日|东京|大阪|泉日|埼玉|沪日|深日|🇯🇵|Japan)"
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    lazy: true
+  - name: "新加坡自动"
+    type: url-test
+    include-all: true
+    filter: "(广新|新加坡|SG|坡|狮城|🇸🇬|Singapore)"
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    lazy: true
+  - name: "美国自动"
+    type: url-test
+    include-all: true
+    filter: "(广美|美|US|纽约|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|🇺🇸|United States)"
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    lazy: true
+
+rules:
+  - RULE-SET,DirectExtra,🏍️ 直连补充
+  - RULE-SET,ProxyExtra,✈️ 代理补充
+  - RULE-SET,PrivateDomain,🌎 私域域名
+  - RULE-SET,LAN,🎯 全球直连
+  - RULE-SET,UnBan,🎯 全球直连
+  - RULE-SET,GoogleCN,🎯 全球直连
+  - RULE-SET,SteamCN,🎯 全球直连
+  - RULE-SET,Steam,🎮 Steam
+  - RULE-SET,AI,🤖 Ai服务
+  - RULE-SET,Apple,🍎 苹果服务
+  - RULE-SET,Telegram,📲 电报信息
+  - RULE-SET,YouTube,🎥 YouTube
+  - RULE-SET,TikTok,🎵 TikTok
+  - RULE-SET,ChinaMedia,🎬 国内媒体
+  - RULE-SET,GlobalMedia,🎞️ 国外媒体
+  - RULE-SET,Adobe,🌄 Adobe
+  - RULE-SET,ProxyGFW,🎲 手动选择
+  - RULE-SET,ChinaDomain,🎯 全球直连
+  - RULE-SET,ChinaCompanyIp,🎯 全球直连
+  - RULE-SET,Download,🎯 全球直连
+  - GEOIP,CN,🎯 全球直连
+  - MATCH,🐠 漏网之鱼
