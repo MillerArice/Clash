@@ -9,18 +9,15 @@ external-controller: :9090
 dns:
   enable: true
   ipv6: false
+  use-hosts: true
   listen: 127.0.0.1:{{ default(request.adg.port, "5450") }}
   enhanced-mode: redir-host
   default-nameserver:
     - 119.29.29.29
-    - 119.28.28.28
-    - 1.0.0.1
-    - 208.67.222.222
-    - 1.2.4.8
+    - 223.5.5.5
   nameserver:
+    - https://doh.pub/dns-query
     - https://dns.alidns.com/dns-query
-    - https://1.1.1.1/dns-query
-    - tls://dns.adguard.com:853
 {% endif %}
 
 # 节点或 proxy-providers 由 SubConverter-Extended 注入。
