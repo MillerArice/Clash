@@ -8,7 +8,6 @@ external-controller: :9090
 {% if default(request.adg, "true") == "true" or exists("request.adg.port") %}
 dns:
   enable: true
-  ipv6: false
   use-hosts: true
   listen: 127.0.0.1:{{ default(request.adg.port, "5450") }}
   enhanced-mode: redir-host
