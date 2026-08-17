@@ -89,6 +89,14 @@ rule-providers:
     path: ./rule_providers/steam.list
     interval: 86400
     proxy: DIRECT
+  FlowAI:
+    type: http
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/MillerArice/Clash/refs/heads/main/Flow.list
+    path: ./rule_providers/flowai.list
+    interval: 86400
+    proxy: DIRECT
   AI:
     type: http
     behavior: classical
@@ -195,6 +203,7 @@ rules:
   - RULE-SET,GoogleCN,🎯 全球直连
   - RULE-SET,SteamCN,🎯 全球直连
   - RULE-SET,Steam,🎮 Steam
+  - RULE-SET,FlowAI,🧩 Flow
   - RULE-SET,AI,🤖 Ai服务
   - RULE-SET,Apple,🍎 苹果服务
   - RULE-SET,Telegram,📲 电报信息
