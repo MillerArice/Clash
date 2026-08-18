@@ -1,17 +1,27 @@
+# Flow页面及核心接口
 DOMAIN,flow.google
 DOMAIN-SUFFIX,labs.google
 DOMAIN,aisandbox-pa.googleapis.com
 
+# Google账号与订阅验证
 DOMAIN,accounts.google.com
 DOMAIN,oauth2.googleapis.com
-DOMAIN,www.googleapis.com
 DOMAIN,www.google.com
 DOMAIN,one.google.com
+DOMAIN,apis.google.com
 
-DOMAIN,storage.googleapis.com
-DOMAIN,content-storage.googleapis.com
-DOMAIN,firebasestorage.googleapis.com
-DOMAIN,firebaseinstallations.googleapis.com
-DOMAIN,firebaseremoteconfig.googleapis.com
+# Google API及对象存储
+DOMAIN-SUFFIX,googleapis.com
 
-DOMAIN,lh3.googleusercontent.com
+# 静态资源、上传及生成媒体
+DOMAIN-SUFFIX,gstatic.com
+DOMAIN-SUFFIX,googleusercontent.com
+DOMAIN-SUFFIX,googleusercontent.cn
+DOMAIN-SUFFIX,ggpht.com
+DOMAIN-SUFFIX,googlevideo.com
+
+# Google Labs关联服务
+DOMAIN-SUFFIX,withgoogle.com
+
+# 验证码相关
+DOMAIN-SUFFIX,recaptcha.net
