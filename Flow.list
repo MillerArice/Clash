@@ -5,3 +5,10 @@ DOMAIN,accounts.google.com
 DOMAIN,oauth2.googleapis.com
 DOMAIN,www.googleapis.com
 DOMAIN,one.google.com
+DOMAIN,flow.google
+DOMAIN-SUFFIX,labs.google
+DOMAIN,aisandbox-pa.googleapis.com
+DOMAIN,accounts.google.com
+DOMAIN,oauth2.googleapis.com
+DOMAIN,www.googleapis.com
+DOMAIN,one.google.com
