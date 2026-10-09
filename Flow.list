@@ -1,5 +1,6 @@
 # Flow页面及核心接口
 DOMAIN,flow.google
+DOMAIN,flow.google.com
 DOMAIN-SUFFIX,labs.google
 DOMAIN,aisandbox-pa.googleapis.com
 
