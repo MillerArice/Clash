@@ -49,6 +49,22 @@ rule-providers:
     path: ./rule_providers/private-domain.list
     interval: 86400
     proxy: DIRECT
+  FlowAI:
+    type: http
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/MillerArice/Clash/refs/heads/main/Flow.list
+    path: ./rule_providers/flowai.list
+    interval: 86400
+    proxy: DIRECT
+  AI:
+    type: http
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/MillerArice/Clash/refs/heads/main/OtherAI.list
+    path: ./rule_providers/ai.list
+    interval: 86400
+    proxy: DIRECT
   LAN:
     type: http
     behavior: classical
@@ -87,22 +103,6 @@ rule-providers:
     format: text
     url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Steam.list
     path: ./rule_providers/steam.list
-    interval: 86400
-    proxy: DIRECT
-  FlowAI:
-    type: http
-    behavior: classical
-    format: text
-    url: https://raw.githubusercontent.com/MillerArice/Clash/refs/heads/main/Flow.list
-    path: ./rule_providers/flowai.list
-    interval: 86400
-    proxy: DIRECT
-  AI:
-    type: http
-    behavior: classical
-    format: text
-    url: https://raw.githubusercontent.com/MillerArice/Clash/refs/heads/main/OtherAI.list
-    path: ./rule_providers/ai.list
     interval: 86400
     proxy: DIRECT
   Apple:
