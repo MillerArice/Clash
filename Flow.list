@@ -26,3 +26,7 @@ DOMAIN-SUFFIX,withgoogle.com
 
 # 验证码相关
 DOMAIN-SUFFIX,recaptcha.net
+
+DOMAIN-SUFFIX,play.google.com
+DOMAIN-SUFFIX,www.google-analytics.com
+DOMAIN-SUFFIX,ogads-pa.clients6.google.com
